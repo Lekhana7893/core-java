@@ -6,8 +6,9 @@ public class Customer {
 	private  int customerId;
 	private String customerCity;
 	// Default Constructor
-	public Customer() {
-		
+	public Customer() 
+	{
+		System.out.println("default");
 	}
 // parameterized constructor
   public Customer(String customerName, int customerId, String customerCity) {
